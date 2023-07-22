@@ -1,0 +1,208 @@
+
+
+
+
+:root {
+    --primaryColor: rgba(0, 145, 255, 0.875);
+    --secondaryColor: rgb(249, 249, 249);
+    --fontColor1: rgb(255, 255, 255);
+    --fontColor2: rgba(171, 171, 171, 0.77);
+    --primaryLinearGradient: linear-gradient(rgba(0, 90, 255, 0.875), rgba(0, 59, 147, 0.875));
+    --secondaryLinearGradient: linear-gradient(transparent, rgba(18, 18, 18, 0.929));
+    --btnLinearGradient: linear-gradient(rgb(44, 44, 44), rgb(152, 152, 152));
+    --darkFilter: rgba(0, 0, 0, 0.947);
+}
+
+
+
+
+
+
+.container-fluid {
+    padding: 0%;
+}
+
+body {
+    background: rgb(228, 228, 228);
+    color: ;
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .navbar-collapse {
+        width: 20% !important;
+    }
+    .headerTitle {
+        font-size: 72pt !important;
+        width: 100% !important;
+    }
+    header .bg-image {
+        height: 100% !important;
+        background-size: cover !important;   
+    }
+    .firstRow .shopInfo {
+        padding: 0px 50px !important;
+        width: 100% !important;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1850px) {
+    .container-fluid .main {
+        padding: 0px 120px !important;
+    }
+    .navbar {
+        font-size: 24pt !important;
+    }
+    .headerTitle {
+        font-size: 88pt !important;
+    }
+    header {
+        height: 600px !important;
+        background-size: cover !important;   
+    }
+    .secondRow .product img {
+        width: 100% !important;
+        /*padding: 0px !important;*/
+    }
+}
+
+
+
+
+/* NAVBAR */
+.navbar {
+    font-size: 16pt;
+}
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+    color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+    color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: rgb(238, 238, 238);
+}
+
+
+
+
+
+
+
+
+
+
+/* HEADER */
+#intro2 {
+    background-size: 100%;
+}
+
+.headerTitle {
+    color: rgb(238, 238, 238);
+    font-size: 80pt;
+    font-weight: 500;
+    text-shadow: rgb(27, 27, 27) .5px .5px 7px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+/* ROW #1 */
+.firstRow {
+    margin-top: 50px;
+}
+
+.firstRow .shopInfo {
+    padding: 0px 150px;
+}
+
+
+.firstRow .form-control {
+    width: 5%;
+}
+
+
+
+
+
+/* ROW #2 */
+.secondRow {
+    font-size: 15pt;
+}
+
+
+.secondRow .product {
+    padding: 50px 80px;
+}
+
+.bg-image {
+    height: 350px;
+    background-color: #fff;
+}
+
+
+
+.secondRow .limited-edition {
+    color: rgb(240, 240, 240);
+}
+
+.secondRow .limited-edition i {
+    color: gold;
+}
+
+.secondRow .onSale {
+    text-decoration: line-through;
+    color: rgba(238, 88, 88, 0.893);
+    padding-left: 10px;
+}
+
+
+.secondRow .cartBtn {
+    padding: 10px 15px;
+    color: rgb(83, 83, 83);
+    font-size: 12pt;
+    font-weight: 600;
+    transition: .35s all;
+    box-shadow: .5px .5px 3px transparent;
+    border-radius: 15px;
+    height: 62px;
+    margin-right: 5px;
+}
+
+
+.secondRow .cartBtn:hover {
+    background: #fff;
+    box-shadow: .75px 2px 3px silver;
+}
+
+
+
+
+
+
+.secondRow .modalBtnSection {
+    position: absolute;
+    bottom: 10px;
+}
